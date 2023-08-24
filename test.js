@@ -1,6 +1,10 @@
-console.log("Hello, world! This is a simple JavaScript message  from File 1 Update 5.");
-let b = 10;
-console.log(b);
 
 
+function stringToArray(str) {
+    const arrayOfStrings = str.split(/\s+/);
+    return arrayOfStrings;
+}
 
+const str = "Це довільний текст для створення масиву слів ";
+const resultArray = stringToArray(str)
+console.log(resultArray)
