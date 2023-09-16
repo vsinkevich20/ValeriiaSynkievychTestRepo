@@ -1,3 +1,4 @@
+
 function areAllUnique(arr) {
     const uniqueSet = new Set(arr);
     return uniqueSet.size === arr.length;
